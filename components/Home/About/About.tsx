@@ -36,10 +36,10 @@ const About = () => {
         <div className="w-[90%] mx-auto  items-center">
           <div className="flex flex-col gap-4">
             <p className="text-muted-foreground leading-relaxed">
-              Hello, I’m Samuel A. Ajayi, a Mechanical Engineer with a strong
-              interest in manufacturing technology and engineering design. I am
-              driven by the challenge of developing practical and innovative
-              solutions to real engineering problems.
+              I am a Mechanical Engineer with a strong interest in manufacturing
+              technology and engineering design. I am driven by the challenge of
+              developing practical and innovative solutions to real engineering
+              problems.
             </p>
             <p className="text-muted-foreground leading-relaxed">
               I bring hands-on experience in design engineering and CNC plasma
@@ -100,9 +100,7 @@ const About = () => {
           {/* research interest */}
 
           <div className="mt-7 flex flex-col gap-5 border-t-4 pt-4">
-            <h3 className="text-2xl font-bold text-center">
-              Research Interest
-            </h3>
+            <SectionHeading title_1="Research" title_2="Interest" />
             <ul className="grid grid-cols-1 sm:grid-cols-2 gap-1  ">
               {researchInterest.map((interest: string, index) => {
                 return (
@@ -123,7 +121,7 @@ const About = () => {
               </Link>{" "}
             </p>
           </div>
-          <div className="mt-7 flex flex-col gap-5 border-t-4 pt-4">
+          {/* <div className="mt-7 flex flex-col gap-5 border-t-4 pt-4">
             <h3 className="text-2xl font-bold text-center">Hobbies</h3>
             <ul className="grid grid-cols-1 sm:grid-cols-2 gap-1  ">
               {hobbies.map((interest: string, index) => {
@@ -135,7 +133,7 @@ const About = () => {
                 );
               })}
             </ul>
-          </div>
+          </div> */}
 
           {/* Education */}
         </div>

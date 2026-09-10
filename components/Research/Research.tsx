@@ -30,7 +30,7 @@ const Research = () => {
                 <div className="mt-3">
                   <h3 className="mb-2  text-sm md:text-xl">
                     <span className=" font-semibold">Supervisor: </span>
-                    Prof. M.A Waheed
+                    Prof. Ismalia
                   </h3>
                   <h3 className="font-semibold text-sm md:text-xl">
                     Abstract:
