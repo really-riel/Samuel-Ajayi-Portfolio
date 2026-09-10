@@ -13,7 +13,7 @@ const font = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Adeolu Adeyinka",
+  title: "Samuel Ajayi",
   description: "Professional Website",
 };
 
