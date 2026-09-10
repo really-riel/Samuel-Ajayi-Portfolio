@@ -43,12 +43,12 @@ const Education = () => {
               4.0/5.0 (80%)
             </p> */}
             <p>
-              <span className="font-bold">Thesis Title:</span> Development of a
-              Forced Convection Solar Cabinet Dryer with Thermal Energy Storage
+              <span className="font-bold">Thesis Title:</span> Root cause
+              analysis (RCA) of the failure of CNC plasma cutting torch in a
+              manufacturing company
             </p>
             <p>
-              <span className="font-bold">Supervisor:</span> Prof. M.A
-              Waheed{" "}
+              <span className="font-bold">Supervisor:</span> Prof. Ismalia{" "}
             </p>
             {/* <div className="">
               <a

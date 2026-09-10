@@ -33,87 +33,94 @@ export const contactInfo = [
 export const socialLinks = [
   {
     icon: FaLinkedin,
-    href: "http://www.linkedin.com/in/adeolu-adeyinka",
+    href: "https://www.linkedin.com/in/ayodeji-ajayi01",
     label: "LinkedIn",
   },
 
-  {
+  /*  {
     icon: FaGithub,
-    href: "https://github.com/really-riel",
+    href: "",
     label: "Github",
-  },
+  }, */
 ];
 export const footerSocialLinks = [
   {
     icon: FaLinkedinIn,
-    href: "http://www.linkedin.com/in/adeolu-adeyinka",
+    href: "https://www.linkedin.com/in/ayodeji-ajayi01",
     label: "LinkedIn",
   },
 
-  {
+  /*  {
     icon: FaGithub,
-    href: "https://github.com/really-riel",
+    href: "",
     label: "Github",
-  },
+  }, */
 ];
 
 export const Experience = [
   {
     type: "work",
-    title: "Engineering Support Specialist",
-    company: "Guinness Nigeria",
-    employmentType: "Contract",
-    period: "Nov, 2024. - Present",
-    description: "Performed maintenance tasks on bottle and can lines",
-    Skills: ["SAP s/4 hana", "Maintenance Planning", "Machine Maintenance"],
+    title: "Graduate Engineering Trainee",
+    company: "Dangote Petroleum Refinery",
+    employmentType: "Full-Time",
+    period: "Oct, 2025. - Present",
+    description: "Performed maintenance tasks on the Captive Power Plant",
+    Skills: [
+      "Gas Turbine Maintenance",
+      "Rotating Equipment Alignment",
+      "Machine Maintenance",
+    ],
   },
   {
     type: "work",
-    title: "Web Developer",
-    company: "Goldernursh",
-    employmentType: "Remote",
+    title: "Graduate Intern",
+    company: "Aify Global Aluminium Company,",
+    employmentType: "Internship",
     period: "Nov 2023 – May 2024",
-    description: "Built and maintained responsive web applications",
-    Skills: ["Javascript", "Next. js", "Python", "Tailwind"],
+    description: "Operated coil-feeding and roof sheet production machines.",
+    Skills: [
+      "Coil Feeding & Machine Operation",
+      "Roof Sheet Production",
+      "Production Quality & Optimization",
+    ],
   },
   {
     type: "work",
     title: "Engineering Intern",
-    company: "Domitech Engineering Services Ltd.",
+    company: "Industrial Application Limited (Nigerian Foundries Group).",
     employmentType: "Internship",
-    period: "Apr 2022 - Oct 2022.",
-    description:
-      "Installed and fabricated pipelines for Caterpiller gas generator sets",
-    Skills: ["Pipeline installation", "P&ID", "Project engineering", "AutoCAD"],
+    period: "May 2022 - Feb 2023.",
+    description: "CNC plasma operation, machining, and CAD design.",
+    Skills: ["CNC plasma cutting", "SolidWorks", "Job Planning", "AutoCAD"],
   },
   {
     type: "work",
     title: "Engineering Intern",
-    company: "Ogun–Oshun River Basin Development Authority(O-ORBDA)",
+    company: "Benz Clinic West Africa, Lagos, Nigeria",
     employmentType: "Internship",
-    period: "Aug 2021 - Oct 2021.",
+    period: "Sept 2021 - Oct 2021.",
     description: "Carried out maintenance and repairs on Vehicles",
     Skills: ["Maintenance", "Automechnics"],
   },
 ];
 
 export const researchInterest = [
-  "Heat and Mass Transfer",
-  "Energy Storage",
-  "Fluid Mechanics",
-  "Solar Technologies",
-  "Sustainable Energy(Green Hydrogen, Solar, Wind)",
-  "AI & ML in Energy Systems",
+  "Addictive Manufacturing",
+  "Automation and robotics",
+  "Design for Manufacturing and Assembly",
+  "Product innovation and development",
+  "Rapid prototyping",
+  "Advanced manufacturing",
+  "Industrial Design",
 ];
 
 export const hobbies = [
-  "Programming",
-  "Piano playing",
   "Guitar playing",
   "Reading books",
-  "Socializing",
-  "Driving cars",
+  "Watching Movies",
+  "Playing Lawn Tennis",
   "Volunteering activities",
+  "Listening to Music",
   "Traveling",
 ];
 
@@ -266,14 +273,16 @@ export const GalleryData = [
 export const WorkExperienceData = [
   {
     type: "work",
-    title: "Engineering Support Specialist",
-    company: "Guinness Nigeria",
-    employmentType: "Contract",
-    period: "Nov, 2024. - Present",
+    title: "Graduate Engineer Trainee",
+    company: "Dangote Petroleum Refinery",
+    employmentType: "Full-Time",
+    period: "Oct, 2025. - Present",
     duties: [
-      "Improved machine availability from 65% to 76% by managing spares reservation and analyzing downtime for key packaging line machines.",
-      "Utilized SAP to plan, track, and document routine and breakdown maintenance activities on packaging line machines.",
-      "Ensured compliance with safety and quality standards in the handling and filling of glass bottles and cans.",
+      "Learned about GE Frame 6 Gas Turbine systems, including lube oil cooling, combustion chambers (borescope inspection), fuel systems, and auxiliaries.",
+      "Gained exposure to HRSG mechanical systems, including steam lines, NRVs, soot blower assemblies, gaskets, and condensate flash tanks.",
+      " Learned fundamentals of rotating equipment alignment, including laser alignment, DBSE checks, soft foot correction, and belt-driven auxiliaries.",
+      " Observed heat exchanger and cooling water systems, including lube oil coolers, tube inspection, corrosion control, and flow optimization.",
+      "Developed practical understanding of mechanical maintenance, reliability concepts, and safe work practices in a refinery captive power plant.",
     ],
     gallery: [
       {
@@ -320,27 +329,30 @@ export const WorkExperienceData = [
   },
   {
     type: "work",
-    title: "Web Developer",
-    company: "Goldernursh",
-    employmentType: "Remote",
-    period: "Nov 2023 – May 2024",
+    title: "Graduate intern",
+    company: "Aify Global Aluminium Company, Imo, Nigeria.",
+    employmentType: "On-Site",
+    period: "May 2024 – Mar 2025",
     duties: [
-      "Developed responsive front-end interfaces using Next.js and Typescript to improve user experience and performance.",
-      "Integrated Firebase API services (Authentication, Firestore, Storage) to build secure and scalable backend functionality.",
-      "Collaborated closely with a web designer to translate UI/UX designs into functional, high-quality web interfaces.",
+      "Operate the decoiler for smooth coil feeding into the production line.",
+      "Manage the roof sheet production machine for Metrocopo, long span, and short span designs.",
+      "Apply engineering principles to ensure sheets meet production specifications and quality standards.",
+      "Optimize production efficiency and maintain consistency through machine adjustments and inspections.",
     ],
     gallery: [],
   },
   {
     type: "work",
     title: "Engineering Intern",
-    company: "Domitech Engineering Services Ltd.",
+    company:
+      "Industrial Application Limited (Nigerian Foundries Group), Ogun, Nigeria.",
     employmentType: "Internship",
-    period: "Apr 2022 - Oct 2022.",
+    period: "May 2022 - Feb 2023.",
     duties: [
-      "Conducted fabrication and installation of pipelines for Caterpillar’s 5MW gas generator set,ensuring efficient system operation.",
-      "Contributed to structural steel erection, gas train installation, and system maintenance.",
-      "Supervised workers to maintain quality standards and meet project deadlines.",
+      "Operated CNC plasma cutting machines and performed maintenance.",
+      "Enhanced skills in interpreting engineering drawings and using SolidWorks.",
+      "Planned and executed machining procedures for various workpieces.",
+      "Gained practical insights into engineering applications and job planning.",
     ],
     gallery: [
       {
@@ -459,12 +471,12 @@ export const WorkExperienceData = [
   {
     type: "work",
     title: "Engineering Intern",
-    company: "Ogun–Oshun River Basin Development Authority(O-ORBDA)",
+    company: "Benz Clinic West Africa, Lagos, Nigeria.",
     employmentType: "Internship",
-    period: "Aug 2021 - Oct 2021.",
+    period: "Sept 2021 - Oct 2021.",
     duties: [
-      "Diagnosed and repaired vehicle mechanical systems, applying preventive maintenance to improve reliability.",
-      "Documented maintenance activities",
+      "Conducted vehicle diagnostics using DAS and XENTRY software.",
+      "Performed general car servicing, including overhauls, filter changes, brake pad replacements, and electronic sensor replacements.",
     ],
     gallery: [],
   },
@@ -596,18 +608,18 @@ export const CertificationsData = [
 
 export const SDGgoals = [
   {
-    goal: "SDG 7",
-    image: "/images/SDG 7.jpg",
-
-    description:
-      "Advancing reliable, sustainable, and clean energy solutions for communities and industries.",
-  },
-  {
     goal: "SDG 9",
     image: "/images/SDG 9.jpg",
 
     description:
       "Promoting innovation, resilient infrastructure, and sustainable industrial development through engineering and technology.",
+  },
+  {
+    goal: "SDG 12",
+    image: "/images/SDG 12.png",
+
+    description:
+      "DFMA, manufacturing efficiency, material utilization, waste reduction, and improved production processes can support more sustainable production.",
   },
   {
     goal: "SDG 13",

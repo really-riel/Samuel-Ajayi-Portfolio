@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="text-[clamp(1rem,_0.2rem_+_1vw,_2rem)]  flex flex-col justify-center lg:flex-row-reverse  mx-auto gap-6">
         <figure className="w-52 h-52 blob max-sm[]:bg-red-500 md:w-80 md:h-80 lg:w-110 lg:h-110 rounded-[50%] overflow-hidden mx-auto">
           <img
-            src={"images/profilePic.png"}
+            src={"images/samuel.jpeg"}
             alt="Irregular frame"
             className="object-cover object-top w-full h-full irregular-frame-image"
           />
@@ -16,7 +16,7 @@ const Hero = () => {
         <div className="flex flex-col justify-center gap-5  ">
           <p className="font-semibold">Hey, I'm </p>
           <p className="font-extrabold  text-[clamp(1.5rem,_1.1rem_+_2vw,_3rem)]">
-            Adeolu Adeyinka.
+            Samuel Ajayi.
           </p>
           <p className="font-bold text-[clamp(0.5rem,_1rem_+_1vw,_2rem)]">
             {" "}
@@ -24,16 +24,16 @@ const Hero = () => {
             Mechanical Engineer <br />
             <span className="text-[clamp(0.5rem,_0.8rem_+_1vw,_1.5rem)]">
               {" "}
-              Thermal and Sustainable Energy Systems
+              Additive Manufacturing
             </span>
           </p>
-          <figure className="max-w-72 h-10 md:h-fit md:max-w-90">
+          {/*  <figure className="max-w-72 h-10 md:h-fit md:max-w-90">
             <img
               src="images/UN SDGoals.png"
               alt="UN Sustainable development goals"
               className="w-full h-full"
             />
-          </figure>
+          </figure> */}
           <p>
             find out more <span className="font-semibold">about me.</span>{" "}
           </p>

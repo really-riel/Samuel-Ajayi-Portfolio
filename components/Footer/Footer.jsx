@@ -6,19 +6,22 @@ const Footer = () => {
   return (
     <footer className="w-full p-4 text-white bg-blue-950">
       <div className="flex items-center justify-between max-w-[1000px] mx-auto gap-3">
-        <p> &copy; {year} Adeolu Adeyinka. Designed & built by me.</p>
+        <p> &copy; {year} Samuel Ajayi</p>
 
         <div className="flex items-center gap-3 *:text-[clamp(1rem,_1rem_+_1vw,_1.5rem)] ">
           {/*  <a href="https://twitter.com/really__riel" target="_blank">
             <IoLogoTwitter />
           </a> */}
-          <a href="http://www.linkedin.com/in/adeolu-adeyinka " target="_blank">
+          <a
+            href="https://www.linkedin.com/in/ayodeji-ajayi01 "
+            target="_blank"
+          >
             <IoLogoLinkedin />{" "}
           </a>
-          <a href="https://github.com/really-riel" target="_blank">
+          {/* <a href="https://github.com/really-riel" target="_blank">
             {" "}
             <IoLogoGithub />
-          </a>
+          </a> */}
         </div>
       </div>
     </footer>

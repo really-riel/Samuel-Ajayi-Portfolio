@@ -36,31 +36,34 @@ const About = () => {
         <div className="w-[90%] mx-auto  items-center">
           <div className="flex flex-col gap-4">
             <p className="text-muted-foreground leading-relaxed">
-              I am a passionate mechanical engineer dedicated to advancing clean
-              and accessible energy solutions. My journey is fueled by a strong
-              interest in heat and mass transfer, thermal energy storage, and
-              solar technologies, all aimed at supporting United Nations
-              Sustainable Development Goal 7 (SDG 7). I have hands-on experience
-              developing a solar-powered dryer with thermal storage, which
-              successfully improved drying efficiency for local crops, blending
-              technical innovation with practical and sustainable impact.
+              Hello, I’m Samuel A. Ajayi, a Mechanical Engineer with a strong
+              interest in manufacturing technology and engineering design. I am
+              driven by the challenge of developing practical and innovative
+              solutions to real engineering problems.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              Professionally, I work as an Engineering Support Specialist, where
-              I enhance operational efficiency, and I also enjoy building web
-              applications that solve real-world problems. Beyond my technical
-              roles, I actively participate in programs like the Sustainable
-              Energy Accelerator by AIIDEV Africa. I am always seeking to learn
-              and contribute to a greener future. I believe in using engineering
-              and technology to create systems that are not only efficient but
-              also environmentally friendly and equitable.
+              I bring hands-on experience in design engineering and CNC plasma
+              operations, with exposure to subtractive manufacturing, metal
+              fabrication, mechanical design, and product development. I work
+              comfortably with advanced CAD tools to translate ideas into
+              functional and manufacturable solutions. Beyond technical
+              execution, I have taken initiative in leadership and knowledge
+              sharing. I have led design efforts on academic engineering
+              projects and facilitated SolidWorks training sessions, helping
+              peers strengthen their design capabilities. My research experience
+              includes conducting a structured root cause analysis on CNC plasma
+              cutting torch failure, deepening my understanding of manufacturing
+              reliability and system performance.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              I am excited by projects that merge renewable energy, smart
-              design, and community benefit. Whether through research, industry
-              collaboration, or volunteering, my goal is to contribute
-              meaningfully to sustainable energy access and inspire others along
-              the way.
+              My core interests lie in advanced manufacturing, additive
+              manufacturing technologies, automation, and design for
+              manufacturing and assembly (DFMA). I am particularly interested in
+              how emerging technologies can improve production efficiency,
+              product innovation, and overall system reliability. I am committed
+              to continuous growth, technical excellence, and contributing
+              meaningfully to teams that value innovation, precision, and
+              forward-thinking engineering solutions.
             </p>
             <p>Sustainable Development Goals (SDG) I align with:</p>
             <div className="flex gap-2 flex-col md:flex-row">

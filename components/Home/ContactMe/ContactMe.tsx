@@ -54,14 +54,14 @@ const ContactMe = () => {
           >
             {" "}
             <MdMailOutline className="text-xl" />
-            adeyinka.ag@gmail.com
+            ajayijames64@gmail.com
           </a>
           <a
             href="tel:+2348123597905"
             className="flex items-center w-fit hover:scale-110 transition-all  gap-2 mt-4"
           >
             <PhoneCall className="text-xl" />
-            +2348123597905
+            +2349078336163
           </a>
         </div>
         <form
